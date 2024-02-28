@@ -1,0 +1,24 @@
+{
+  "name": "Simple GIF Decoder",
+  "description": "Simple GIF decoder for ESP32",
+  "keywords": "GIF",
+  "authors": [
+    {
+      "name": "binzume",
+      "url": "https://github.com/binzume/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binzume/gif-decoder.git"
+  },
+  "version": "0.0.1",
+  "framework": "*",
+  "platforms": "espressif32",
+  "build": {
+    "flags": "",
+    "srcFilter": [
+      "+<GIFDecoder.h>"
+    ]
+  }
+}
